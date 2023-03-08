@@ -8,7 +8,6 @@ import connection from '../config/database.config.js'
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
-      
       primaryKey: true,
     },
     username: {
